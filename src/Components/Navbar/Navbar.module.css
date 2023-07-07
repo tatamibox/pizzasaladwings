@@ -1,0 +1,33 @@
+.header {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2.4rem;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subHeader {
+    text-align: center;
+    font-family: 'Helvetica';
+}
+
+
+.socialMedia img {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
