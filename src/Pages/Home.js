@@ -14,7 +14,7 @@ const Home = () => {
 
 
 
-        axios.post('http://pswserver.vercel.app/latestAlbums', { albumCounter: albumCounter })
+        axios.post('pswserver.vercel.app/latestAlbums', { albumCounter: albumCounter })
             .then(res => {
                 console.log(res.data)
                 setLatestAlbums(res.data)
