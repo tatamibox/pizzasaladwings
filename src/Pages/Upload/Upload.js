@@ -20,7 +20,7 @@ const Upload = () => {
             })
             .then(downloadURL => {
                 console.log(downloadURL)
-                axios.post('https://pswserver.vercel.app/latestAlbums', {
+                axios.post('https://pswserver.vercel.app/uploadAlbum', {
                     imageURL: downloadURL,
                     albumTitle: title,
                     description: description,
