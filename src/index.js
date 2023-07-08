@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './Pages/Home';
 import Upload from './Pages/Upload/Upload';
+import Album from './Pages/Album/Album';
 
 
 
@@ -14,6 +15,7 @@ root.render(
     <Routes>
       <Route exact path='/' element={<Home />} />
       <Route exact path='/uploaderic' element={<Upload />} />
+      <Route exact path='/album/:id' element={<Album />} />
     </Routes>
   </Router>
 

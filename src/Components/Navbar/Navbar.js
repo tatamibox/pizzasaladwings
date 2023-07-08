@@ -11,7 +11,7 @@ const Navbar = () => {
             <p className={styles.subHeader}>a portfolio of memories
                 for eric & tanya</p>
             <div className={styles.socialMedia}>
-                <a href="instagram.com/pizzasaladwings"><img src={Instagram}></img></a>
+                <a href="https://instagram.com/pizzasaladwings"><img src={Instagram}></img></a>
             </div>
         </div>
     )

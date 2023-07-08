@@ -22,7 +22,7 @@ const Home = () => {
     })
 
     return (
-        <>
+        <body className={styles.homePage}>
             <Navbar />
             <div className={styles.spotify}>
                 <iframe
@@ -43,13 +43,13 @@ const Home = () => {
                 <h2 className={styles.latestHeader}>LATEST POSTS.</h2>
                 <div className={styles.albums__section}>
                     {latestAlbums.map((product, i) => (
-                        (<div data-aos="fade-in" className={styles.albumIndi}><a className={styles.album__links} key={i} href={`/product/${product.id}`}><img className={styles.albumImage} src={product.imageURL} alt="album preview"></img></a>
+                        (<div data-aos="fade-in" className={styles.albumIndi}><a className={styles.album__links} key={i} href={`/album/${product.id}`}><img className={styles.albumImage} src={product.imageURL} alt="album preview"></img></a>
                             <div className={styles.albumMain}><h3>{product.albumTitle} </h3><h4 className={styles.albumDate}>{product.date}</h4></div></div>)
 
                     ))}
                 </div>
             </section>
-        </>
+        </body>
     )
 }
 
