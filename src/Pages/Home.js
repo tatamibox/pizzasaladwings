@@ -8,7 +8,7 @@ const Home = () => {
 
     aos.init();
 
-    const [albumCounter, setAlbumCounter] = useState(9)
+    const [albumCounter, setAlbumCounter] = useState(50)
     const [latestAlbums, setLatestAlbums] = useState([])
     useEffect(() => {
 
